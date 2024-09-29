@@ -17,7 +17,7 @@ export class Click extends Component {
     const {count} = this.state;
     return (
       <div>
-        <button onClick = {this.updateClick} >{this.props.name} Clicked {count} times </button>
+        <button onClick = {this.updateClick} >{this.props.name}Clicked {count} times </button>
       </div>
     )
   }

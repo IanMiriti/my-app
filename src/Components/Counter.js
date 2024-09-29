@@ -16,7 +16,7 @@ export class Counter extends Component {
     const {count} =this.state;
     return (
       <div>
-        <button onMouseEnter={this.incrementCount}> {this.props.name} incremented to {count}</button>
+        <button onMouseEnter={this.incrementCount}> {this.props.name}incremented to {count}</button>
       </div>
     )
   }

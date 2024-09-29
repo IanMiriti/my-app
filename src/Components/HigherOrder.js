@@ -11,4 +11,4 @@ const updatedComp = OriginalComp => {
   return NewComp;
 
 };
- export default updatedComp;
+ export default updatedComp;rce
