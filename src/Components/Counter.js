@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import updatedComp from './HigherOrder';
 export class Counter extends Component {
  constructor(props) {
     super(props)
@@ -16,10 +16,10 @@ export class Counter extends Component {
     const {count} =this.state;
     return (
       <div>
-        <button onMouseEnter={this.incrementCount}>incremented to {count}</button>
+        <button onMouseEnter={this.incrementCount}> {this.props.name} incremented to {count}</button>
       </div>
     )
   }
 }
 
-export default Counter
+export default updatedComp(Counter); 

@@ -15,6 +15,7 @@ import Counter from './Components/Counter';
     <ClassComp1/>
     <Click/>  
     <Counter/> 
+    
   </div>
    
    
