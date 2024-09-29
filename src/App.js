@@ -3,7 +3,8 @@ import './App.css';
  
 import FunctionalComp from './Components/FunctionalComp';
 import {ClassComp, ClassComp1} from './Components/ClassComp';
-
+import Click from './Components/Click';
+import Counter from './Components/Counter';
  function App() {
   return (
   <div>
@@ -12,6 +13,8 @@ import {ClassComp, ClassComp1} from './Components/ClassComp';
     <FunctionalComp/>
     <ClassComp/>
     <ClassComp1/>
+    <Click/>  
+    <Counter/> 
   </div>
    
    
